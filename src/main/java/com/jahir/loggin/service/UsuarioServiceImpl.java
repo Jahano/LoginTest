@@ -2,7 +2,7 @@ package com.jahir.loggin.service;
 
 import com.jahir.loggin.data.UsuarioDAO;
 import com.jahir.loggin.domain.Usuario;
-import jakarta.inject.Inject;
+import javax.inject.Inject;
 
 public class UsuarioServiceImpl implements UsuarioService{
     @Inject

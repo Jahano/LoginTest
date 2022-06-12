@@ -1,7 +1,7 @@
 package com.jahir.loggin.service;
 
 import com.jahir.loggin.domain.Usuario;
-import jakarta.ejb.Local;
+import javax.ejb.Local;
 
 
 

@@ -1,9 +1,9 @@
 package com.jahir.loggin.data;
 
 import com.jahir.loggin.domain.Usuario;
-import jakarta.ejb.Stateless;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.sql.Date;
 
 

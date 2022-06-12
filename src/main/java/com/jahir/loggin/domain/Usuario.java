@@ -1,6 +1,6 @@
 package com.jahir.loggin.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.sql.Date;
 import java.time.Instant;

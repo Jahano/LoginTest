@@ -1,8 +1,8 @@
 package com.jahir.loggin.corsfilter;
 
-import jakarta.ws.rs.container.ContainerRequestContext;
-import jakarta.ws.rs.container.ContainerRequestFilter;
-import jakarta.ws.rs.ext.Provider;
+import javax.ws.rs.container.ContainerRequestContext;
+import javax.ws.rs.container.ContainerRequestFilter;
+import javax.ws.rs.ext.Provider;
 import org.apache.commons.codec.binary.Base64;
 import org.glassfish.jersey.client.filter.CsrfProtectionFilter;
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="3133bdf2-849a-44dd-bf87-93689f0c1d20" name="LoginTest" url="jdbc:postgresql://ec2-52-44-13-158.compute-1.amazonaws.com/dsnm5hmgn0muq" driverClass="org.postgresql.Driver" />
+    </data-sources>
     <data-source-infos>
-      <data-source-info id="4c1b72ab-75d8-410a-9568-1aa36f45a3d3" persistence-unit-name="LoginPU" />
+      <data-source-info id="3133bdf2-849a-44dd-bf87-93689f0c1d20" persistence-unit-name="LoginPU" />
     </data-source-infos>
   </component>
 </project>

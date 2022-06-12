@@ -3,8 +3,17 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
-    <persistence-unit name="LoginPU" transaction-type="JTA">
+    <!--   <persistence-unit name="LoginPU" transaction-type="JTA">
         <jta-data-source>jdbc/ControlDB</jta-data-source>
         <class>com.jahir.loggin.domain.Usuario</class>
+    </persistence-unit> -->
+    <persistence-unit name="TestPersistence" transaction-type="RESOURCE_LOCAL">
+        <class>com.jahir.loggin.domain.Usuario</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="javax.persistence.jdbc.url" value="ec2-52-44-13-158.compute-1.amazonaws.com" />
+            <property name="javax.persistence.jdbc.user" value="jxeguigxoekpur" />
+            <property name="javax.persistence.jdbc.password" value="552f20e8db4a601644c8335596a9fd79762d5d4688b2e6cb3c4bc8d1050a43fa" />
+        </properties>
     </persistence-unit>
 </persistence>

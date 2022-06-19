@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.jahir.api.LogginAPI
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.jahir.api.App
